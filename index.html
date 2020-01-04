@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>Manhattan zones by Area</title>
+        <link rel="stylesheet" type="text/css" href="./style/style.css">
+<!--        <link rel="stylesheet" type="text/css" href="./style/bootstrap.css">-->
+        <link rel="shortcut icon"  href="./favicon.ico" type="image/x-icon"/>
+        
+        <script src="./jquery-3.2.1.js"></script>
+        <script src="./queue.min.js"></script>
+        <script src="./d3.v4.2.6.min.js"></script>
+        
+        
+    </head>
+
+
+    <body>
+        <h1>Manhattan zones by Area</h1>
+        <p class="note">(Including Antarctica. Areas exclude inland water bodies.)</p>
+        <div class=buttons>
+            <button id="size">Size</button>
+        </div>
+        
+        <div class="map-whole" id="map-whole">
+            <svg width="100%" heigh="100%" id="svgmap"> 
+            <!-- <div class="clear"></div> -->
+            <div id="list"> </div>
+        </div>
+        
+        <div class="endText">
+            <p>Countries and Antarctica projected using the conformal <a href="http://en.wikipedia.org/wiki/Stereographic_projection">stereographic projection</a>, rescaled and sorted by land area.</p>
+            <p>Copy right @Yuanhong Shi <a href="www.northeastern.edu">Northeastern University</a></p>
+        </div>
+    </body>
+    <script src="./index.js"></script>
+    
+    
+</html>

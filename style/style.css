@@ -1,0 +1,103 @@
+
+
+/*
+svg {
+  display: inline;
+  vertical-align: middle;
+}
+
+svg:hover path {
+  fill-opacity: .75;
+}
+
+.tooltip {
+  position: fixed;
+  display: none;
+  pointer-events: none;
+  background: #fff;
+  padding: 5px;
+  text-align: left;
+  border: solid #ccc 1px;
+  color: #666;
+  font-size: 12px;
+  font-family: sans-serif;
+  bottom: 0;
+  left: 0;
+}
+
+.tooltip p {
+  margin: 0;
+}
+*/
+
+
+.note {
+    margin: 0;
+    font-size: 11px;
+    font-style: italic;
+    text-align: center;
+}
+p {
+    text-align: center;
+    margin: inherit;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.map-whole {
+    overflow: hidden;
+    width: 100vw;
+    height: 80vh;
+    display:inline-block; 
+    margin:0 auto;
+}
+
+/*.clear{
+  clear:both;
+}*/
+
+#svgmap {
+    overflow: auto;
+    width: 100vw;
+    height: 80vh;
+    display: inline-block;
+    margin:0 auto;
+    position: fixed;
+    clear: both;
+}
+
+#list {
+  position: fixed;
+}
+
+button {
+  background-color: white;
+  width: 100px;
+  color: black;
+  border: 2px solid steelblue; 
+  transition-duration: 0.4s;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button:hover {
+  background-color: steelblue; 
+  color: white;
+}
+
+.tooltip {
+    position: relative;
+    /*left: 0px;
+    top: 0px;
+    visibility: hidden;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-weight: bold;*/
+    font-size: 12pt;
+    background-color:steelblue;
+    padding: 2px;
+    pointer-events: none;
+    width: 120px;
+}
